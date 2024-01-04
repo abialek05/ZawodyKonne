@@ -27,10 +27,18 @@ Functions:
 - Delete competition entry dialog box
 ![image](https://github.com/abialek05/ZawodyKonne/assets/152793437/a244c018-ad33-4bfb-9024-f357ed7fae29)
 
-To run this program, you need to install composer and import the 'zawodykonnelaravel.sql' database.
+To run this program, you need to install xampp, composer and import the 'zawodykonnelaravel.sql' database.
+Composer:
 1. Download composer https://getcomposer.org/download/
 2. Open the console and cd the project root directory
 3. Run composer install or php composer.phar install
 4. Run php artisan key:generate
 5. Run php artisan migrate
 6. Run php artisan serve
+
+Database (used XAMPP):
+1. Open admin page and create new database
+2. Open the created database and choose the 'import' option from the men
+3. Choose the 'zawodykonnelaravel.sql' file and press 'import'
+
+Make sure that MySQL in XAMPP is enabled and server is running (php artisan serve) before accessing the website.
